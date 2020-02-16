@@ -1,0 +1,72 @@
+/* Add application styles & imports to this file! */
+
+body {
+  background: linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), 
+  url("https://365psd.com/images/istock/previews/9907/99078701-game-background-2d-application-vector-design-tileable-horizontally-size-1024x512.jpg") no-repeat;
+  background-size: cover;
+  font-size: 15px;
+}
+
+#main {
+  margin: 8% auto;
+  padding: 50px;
+  min-width: 45%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px #686868;
+  background: #66BAFF;
+  color: #fff;
+}
+
+#title {
+  text-transform: uppercase;
+  font-size: 2.8em;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  margin: 10px auto;
+}
+
+#stars {
+  font-size: 2.5em;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  color: #000;
+  margin: 30px auto 10px auto;
+}
+
+#input {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+#reset {
+  margin: 10px;
+}
+
+#chances {
+  font-size: 1.6em;
+  margin: 10px auto;
+}
+
+#no {
+  color: #1E2D24;
+  margin: auto 10px;
+}
+
+#result {
+  text-transform: uppercase;
+  word-spacing: 0.3em;
+  color: #FF0000;
+  font-size: 1.6em;
+  margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+

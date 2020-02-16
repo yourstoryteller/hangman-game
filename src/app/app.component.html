@@ -1,0 +1,21 @@
+<div id="main" class="container text-center">
+
+    <!-- Title -->
+    <h1 id="title"> Hangman Game </h1>
+
+    <!-- Display stars here -->
+    <p id="stars"> {{ displayedWord }}  </p>
+
+    <!-- Textbox to accept input -->
+    <input id="input" type="text" maxlength="1" #letter [(ngModel)]="textbox" (keyup.enter)="guessMe(letter.value)">
+
+    <!-- Reset button -->
+    <button id="reset" class="btn btn-warning" (click)="reloadPage()" > Reset </button>
+
+    <!-- Display remaining chances -->
+    <p id="chances"> <span id="no"> {{ chances }} </span> chances left . </p>
+
+    <!-- Display game result -->
+    <p id="result"> {{ result }} </p>
+
+</div>
